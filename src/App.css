@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.overall_margin{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.overall_padding{
+    padding: 2rem;
+}
+.primary_bg{
+    background: #F2F7F6;
+}

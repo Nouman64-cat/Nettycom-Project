@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.experts-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+}
+.experts-title{
+    display: flex;
+    flex-direction: column;
+}
+.experts-title-btn{
+    display: flex;
+    flex-direction: row;
+}
+.experts-title-btn img{
+    margin-left: 1.5rem;
+    width: 5.5rem;
+    height: 4rem;
+    margin-top: 0.7rem;
+}
+.experts-title button{
+    width: 11rem;
+    height: 3.5rem;
+    background: #003DF6;
+    border-radius: 3rem;
+    border: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 0.9rem;
+    /* margin-left: 4rem; */
+    margin-top: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.experts-title button:hover{
+    background: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.experts-title h1{
+    font-size: 3.2rem;
+    font-family: 'Poppins';
+    width: 80%;
+    line-height: 5.5rem;
+    /* margin-left: 4rem; */
+}
+.experts-title p{
+    font-family: 'Poppins';
+    width: 80%;
+    /* margin-left: 4rem; */
+    font-size: 0.9rem;
+    text-align: justify;
+    color: rgb(77, 77, 77);
+}
+.experts-image img{
+    width: 27rem;
+    height: 24rem;
+    margin-right: 6rem;
+    margin-top: 1rem;
+}
+
+@media  screen  and (max-width:1024px) {
+    .experts-container{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10rem;
+    }
+    .experts-title{
+        display: flex;
+        flex-direction: column;
+    }
+    .experts-title-btn{
+        display: flex;
+        flex-direction: row;
+    }
+    .experts-title-btn img{
+        margin-left: 1.5rem;
+        width: 5.5rem;
+        height: 4rem;
+        margin-top: 0.7rem;
+    }
+    .experts-title button{
+        width: 11rem;
+        height: 3.5rem;
+        background: #003DF6;
+        border-radius: 3rem;
+        border: none;
+        color: white;
+        font-family: 'Poppins';
+        font-size: 0.9rem;
+        /* margin-left: 4rem; */
+        margin-top: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+    .experts-title button:hover{
+        background: white;
+        color: black;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+    .experts-title h1{
+        font-size: 2.4rem;
+        font-family: 'Poppins';
+        width: 95%;
+        line-height: 4.7rem;
+        /* margin-left: 4rem; */
+    }
+    .experts-title p{
+        font-family: 'Poppins';
+        width: 90%;
+        /* margin-left: 4rem; */
+        font-size: 0.9rem;
+        text-align: justify;
+        color: rgb(77, 77, 77);
+    }
+    .experts-image img{
+        width: 20rem;
+        height: 18rem;
+        margin-right: 0;
+        margin-top: 2rem;
+    }
+}
+
+
+@media  screen  and (max-width: 480px) {
+    .experts-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .experts-title{
+        display: flex;
+        flex-direction: column;
+    }
+    .experts-title-btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .experts-title-btn img{
+        margin-left: 1.5rem;
+        width: 5.5rem;
+        height: 4rem;
+        margin-top: 0.7rem;
+    }
+    .experts-title button{
+        width: 11rem;
+        height: 3.5rem;
+        background: #003DF6;
+        border-radius: 3rem;
+        border: none;
+        color: white;
+        font-family: 'Poppins';
+        font-size: 0.9rem;
+        /* margin-left: 4rem; */
+        margin-top: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+    .experts-title button:hover{
+        background: white;
+        color: black;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+    .experts-title h1{
+        font-size: 2rem;
+        font-family: 'Poppins';
+        width: 100%;
+        line-height: 3.7rem;
+        /* margin-left: 4rem; */
+        /* margin-left: -2rem; */
+    }
+    .experts-title p{
+        font-family: 'Poppins';
+        width: 100%;
+        /* margin-left: 4rem; */
+        font-size: 0.8rem;
+        text-align: justify;
+        color: rgb(77, 77, 77);
+    }
+    .experts-image img{
+        width: 20rem;
+        height: 18rem;
+        margin-right: 0;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        margin-left: 4rem;
+    }
+}

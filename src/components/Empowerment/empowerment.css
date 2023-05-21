@@ -1,0 +1,398 @@
+.empowerment-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    background: #F2F7F6;
+    border-radius: 12px;
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
+}
+.empowerment-top{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    padding-left: 2.8rem;
+}
+.empowerment-top h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-right: 17.5rem;
+    font-family: 'Poppins';
+}
+.empowerment-top button{
+    background: none;
+    border: 1px solid #1D7376;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+    margin-top: 1.6rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: rgb(120, 120, 120);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+.empowerment-top button:hover{
+    background-color: #1D7376;
+    color: white;
+}
+.empowerment-container p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Poppins';
+    margin-left: 2.8rem;
+    margin-right: 2.8rem;
+    margin-bottom: 2rem;
+    color:rgb(120, 120, 120);
+    margin-top: 0;
+}
+.empowerment-bottom{
+    display: flex;
+    flex-direction: row;
+}
+.mytabs{
+    margin-left: 2.8rem;
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.features p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.tab1,
+.tab2,
+.tab3{
+    display: flex;
+    flex-direction: column;
+}
+.tab1 h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin-bottom: 0;
+    width: 50%;
+}
+.tab1 p{
+    margin-left: 0;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    width: 46%;
+}
+.desc{
+    margin-left: 0;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    width: 46%;
+}
+.empowerment-bottom-right{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 1px solid #1D7376;
+    border-radius: 12px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    padding-left: 2rem;
+    width: 500px;
+    margin-right: 4rem;
+    font-family: 'Poppins';
+    height: 450px;
+    
+}
+.empowerment-bottom-right h3{
+    color:rgb(120, 120, 120);
+    margin-bottom: 0;
+}
+.empowerment-bottom-right h2{
+    margin-bottom: 0;
+}
+.empowerment-bottom-right p{
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.chart{
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 3rem;
+    width: 100%;
+}
+@media screen and (max-width: 1024px) {
+    /* CSS rules for tablets */
+    .empowerment-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        background: #F2F7F6;
+        border-radius: 12px;
+        padding-bottom: 4rem;
+        margin-bottom: 4rem;
+    }
+    .empowerment-top{
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+        justify-content: center;
+    }
+    .empowerment-top h1{
+        font-size: 2.3rem;
+        font-weight: 600;
+        /* margin-right: 11rem; */
+        font-family: 'Poppins';
+        width: 100%;
+        text-align: center;
+    }
+    .empowerment-top button{
+        background: none;
+        border: 1px solid #1D7376;
+        border-radius: 25px;
+        margin-bottom: 2rem;
+        margin-top: 1.6rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        color: rgb(120, 120, 120);
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: 'Poppins';
+        cursor: pointer;
+    }
+    .empowerment-top button:hover{
+        background-color: #1D7376;
+        color: white;
+    }
+    .empowerment-container p{
+        font-size: 0.9rem;
+        font-weight: 500;
+        font-family: 'Poppins';
+        margin-left: 2.8rem;
+        margin-right: 2.8rem;
+        margin-bottom: 2rem;
+        color:rgb(120, 120, 120);
+        margin-top: 0;
+        text-align: center;
+    }
+    .empowerment-bottom{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .mytabs{
+        margin-left: 2.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .features{
+        display: flex;
+        flex-direction: row;
+        /* gap: 1rem; */
+    }
+    .features p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .tab1,
+    .tab2,
+    .tab3{
+        display: flex;
+        flex-direction: column;
+    }
+    .tab1 h1{
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: 'Poppins';
+        margin-bottom: 0;
+        width: 90%;
+    }
+    .tab1 p{
+        margin-left: 0;
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+        width: 86%;
+        text-align: left;
+    }
+    
+    .empowerment-bottom-right{
+        display: flex;
+        flex-direction: column;
+        background: white;
+        border: 1px solid #1D7376;
+        border-radius: 12px;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+        padding-left: 2rem;
+        width: 480px;
+        /* margin-right: 4rem; */
+        font-family: 'Poppins';
+        height: 450px;
+        margin-left: 10rem;
+        display: flex;
+        align-items: center;
+    }
+    .empowerment-bottom-right h3{
+        color:rgb(120, 120, 120);
+        margin-bottom: 0;
+    }
+    .empowerment-bottom-right h2{
+        margin-bottom: 0;
+    }
+    .empowerment-bottom-right p{
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .chart{
+        margin-top: 0;
+        padding-top: 0;
+        width: 100%;
+        margin-left: 9rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    /* CSS rules for tablets */
+    .empowerment-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        background: #F2F7F6;
+        border-radius: 12px;
+        padding-bottom: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .empowerment-top{
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        justify-content: center;
+    }
+    .empowerment-top h1{
+        font-size: 2.3rem;
+        font-weight: 600;
+        /* margin-right: 11rem; */
+        font-family: 'Poppins';
+        width: 100%;
+        text-align: center;
+    }
+    .empowerment-top button{
+        background: none;
+        border: 1px solid #1D7376;
+        border-radius: 25px;
+        margin-bottom: 2rem;
+        margin-top: 1.6rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        color: rgb(120, 120, 120);
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: 'Poppins';
+        cursor: pointer;
+    }
+    .empowerment-top button:hover{
+        background-color: #1D7376;
+        color: white;
+    }
+    .empowerment-container p{
+        font-size: 0.9rem;
+        font-weight: 500;
+        font-family: 'Poppins';
+        margin-left: 2.8rem;
+        margin-right: 2.8rem;
+        margin-bottom: 2rem;
+        color:rgb(120, 120, 120);
+        margin-top: 0;
+        text-align: center;
+    }
+    .empowerment-bottom{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .mytabs{
+        margin-left: 2.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .features{
+        display: flex;
+        flex-direction: row;
+        /* gap: 1rem; */
+    }
+    .features p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .tab1,
+    .tab2,
+    .tab3{
+        display: flex;
+        flex-direction: column;
+    }
+    .tab1 h1{
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: 'Poppins';
+        margin-bottom: 0;
+        width: 90%;
+    }
+    .tab1 p{
+        margin-left: 0;
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+        width: 86%;
+        text-align: left;
+    }
+    
+    .empowerment-bottom-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: white;
+        border: 1px solid #1D7376;
+        border-radius: 12px;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+        padding-left: 2rem;
+        width: 428px;
+        /* margin-right: 4rem; */
+        font-family: 'Poppins';
+        height: 450px;
+        /* margin-left: 5rem; */
+        margin-left: 0;
+    }
+    .empowerment-bottom-right h3{
+        color:rgb(120, 120, 120);
+        margin-bottom: 0;
+    }
+    .empowerment-bottom-right h2{
+        margin-bottom: 0;
+    }
+    .empowerment-bottom-right p{
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .chart{
+        margin-top: 0;
+        padding-top: 0;
+        width: 100%;
+        margin-left: 7rem;
+    }
+  }

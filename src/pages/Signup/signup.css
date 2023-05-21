@@ -1,0 +1,359 @@
+.signup-container{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+    /* background: rgb(6, 0, 22); */
+    align-items: center;
+    justify-content: center;
+}
+.star{
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+@keyframes twinkle{
+    0%{
+        opacity: 0.5;
+    }
+    25%{
+        opacity: 0.7;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(50vw);
+    }
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    width: 30%;
+}
+.signup-form h1,
+.signup-form h2{
+    color: black;
+}
+.signup-form_input{
+    display: flex;
+    flex-direction: column;
+}
+.google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    border-radius: 1px;
+    background-color: #ffffff;
+    color: #757575;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    border: 2px solid #003DF6;
+  }
+  .loader-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
+  }
+  .loader-overlay img{
+    width: 5rem;
+    height: 5rem;
+    animation: floating 3s ease-in infinite;
+  }
+  @keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+  .google-button:hover {
+    /* background-color: #eeeeee; */
+    border: 2px solid #FFC107;
+  }
+  .google-button:hover svg {
+    color: #FFC107;
+  }
+  
+  .google-button svg {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #003DF6;
+  }
+  
+.signup-form_input input{
+    padding-left: 15.2099px;
+    gap: 15.21px;
+    height: 40.44px;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    background: #CFD4DE3D;
+    color: black;
+}
+.signup-form_input input::placeholder{
+    color: black;
+}
+.signup-form_input input[type="text"] {
+    color: white;
+  }
+.create-account-btn{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    margin-bottom: 2rem;
+    border-radius: 0.7rem;
+    border: 2px solid #003DF6;
+    background: #003DF6;
+    color: white;
+    font-family: 'Poppins';
+}
+.forgotPassword{
+    display: flex;
+    flex-direction: row;
+}
+.check{
+    margin-top: -0.7rem;
+}
+.remember{
+    display: flex;
+    flex-direction: row;
+}
+.remember h5{
+    margin-top: 0;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #8D929E;
+}
+.forgotPassword p{
+    margin-left: 14.5rem;
+}
+.signup-form_input p{
+    font-size: 0.7rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #003DF6E3;
+    cursor: pointer;
+}
+.signup-form_input p:hover{
+    text-decoration: underline;
+}
+.create-account-btn:hover{
+    color: #003DF6;
+    background: white;
+}
+.login{
+    color: #003DF6E3;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.login:hover{
+    color: #FFC107;
+    text-decoration: underline;
+}
+.already{
+    color: #8D929E;
+    font-size: 0.8rem;
+    
+    margin-left: 7.5rem;
+}
+.signup-image img{
+    height: 90vh;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .signup-container{
+        display: flex;
+        flex-direction: row;
+        font-family: 'Poppins';
+        /* background: rgb(6, 0, 22); */
+        align-items: center;
+        justify-content: center;
+        background-image: url(../../assets/signup_frame.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8); /* Set the background color with opacity */
+        background-blend-mode: multiply;
+    }
+    .star{
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        background-color: white;
+        border-radius: 50%;
+        opacity: 0.5;
+    }
+    @keyframes twinkle{
+        0%{
+            opacity: 0.5;
+        }
+        25%{
+            opacity: 0.7;
+        }
+        50%{
+            opacity: 1;
+        }
+        75%{
+            opacity: 0.7;
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(50vw);
+        }
+    }
+    .signup-form{
+        display: flex;
+        flex-direction: column;
+        margin: 4rem 0.5rem;
+        width: 60%;
+        /* margin-left: 35rem; */
+    }
+    .signup-form h1,
+    .signup-form h2{
+        color: rgb(255, 255, 255);
+    }
+    .signup-form_input{
+        display: flex;
+        flex-direction: column;
+    }
+    .google-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        border: none;
+        border-radius: 1px;
+        background-color: #ffffff;
+        color: #757575;
+        font-size: 1.2rem;
+        cursor: pointer;
+        margin-bottom: 2rem;
+        border: 2px solid #003DF6;
+      }
+      .loader-overlay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20rem;
+      }
+      .loader-overlay img{
+        width: 5rem;
+        height: 5rem;
+        animation: floating 3s ease-in infinite;
+      }
+      @keyframes floating {
+        0% { transform: translate(0,  0px); }
+        50%  { transform: translate(0, 15px); }
+        100%   { transform: translate(0, -0px); }   
+    }
+      .google-button:hover {
+        /* background-color: #eeeeee; */
+        border: 2px solid #FFC107;
+      }
+      .google-button:hover svg {
+        color: #FFC107;
+      }
+      
+      .google-button svg {
+        margin-right: 10px;
+        font-size: 1.5rem;
+        color: #003DF6;
+      }
+      
+    .signup-form_input input{
+        padding-left: 15.2099px;
+        gap: 15.21px;
+        height: 40.44px;
+        margin-bottom: 1rem;
+        border-radius: 0.3rem;
+        border: none;
+        background: #d7dae13d;
+        color: rgb(255, 255, 255);
+    }
+    .signup-form_input input::placeholder{
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+    }
+    .signup-form_input input[type="text"] {
+        color: white;
+      }
+    .create-account-btn{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        margin-bottom: 2rem;
+        border-radius: 0.7rem;
+        border: 2px solid #003DF6;
+        background: #003DF6;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .forgotPassword{
+        display: flex;
+        flex-direction: row;
+    }
+    .check{
+        margin-top: -0.7rem;
+    }
+    .remember{
+        display: flex;
+        flex-direction: row;
+    }
+    .remember h5{
+        margin-top: 0;
+        font-family: 'Poppins';
+        font-weight: 400;
+        color: #8D929E;
+    }
+    .forgotPassword p{
+        margin-left: 23.5rem;
+    }
+    .signup-form_input p{
+        font-size: 0.7rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: #003DF6E3;
+        cursor: pointer;
+    }
+    .signup-form_input p:hover{
+        text-decoration: underline;
+    }
+    .create-account-btn:hover{
+        color: #003DF6;
+        background: white;
+    }
+    .login{
+        color: #003DF6E3;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+    .login:hover{
+        color: #FFC107;
+        text-decoration: underline;
+    }
+    .already{
+        color: #8D929E;
+        font-size: 0.8rem;
+        margin-top: 0;
+        margin-left: 13rem;
+    }
+    .signup-image img{
+        display: none;
+    }
+}

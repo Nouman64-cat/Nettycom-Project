@@ -1,0 +1,115 @@
+.terms-container1{
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 5rem;
+  margin-right: 5rem; */
+  padding-left: 4rem;
+  padding-right: 4rem;
+  /* background:  rgba(0.850, 0.850, 0.850, 0.09); */
+}
+.terms-header{
+  display: flex;
+  flex-direction: column;
+}
+.terms-header h1{
+  color:  rgba(0.059, 0.094, 0.153, 0.8);
+  margin-bottom: 0;
+  font-size: 3rem;
+}
+.terms-header p{
+  color:  rgba(0.059, 0.094, 0.153, 0.8);
+  margin-top: 0.7rem;
+  font-size: 1.2rem;
+}
+.terms-section{
+  display: flex;
+  flex-direction: column;
+}
+.terms-section-content h1{
+  color:  rgba(0.059, 0.094, 0.153, 0.8);
+}
+.terms-section-content p{
+  text-align: justify;
+}
+.term-footer{
+  display: flex;
+  flex-direction: row;
+}
+.term-footer img{
+  width: 3rem;
+  height: 3rem;
+  margin-top: 0.7rem;
+}
+.term-footer h3{
+  margin-top: 1.2rem;
+  margin-left: 0.3rem;
+}
+.term-footer button{
+  margin-left: 62rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background:  #003EFB;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.term-footer button:hover{
+  background: white;
+  color:#003EFB;
+  border: 2px solid #003EFB;
+}
+@media screen and (max-width: 1024px) {
+  .term-footer button{
+    margin-left: 31.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background:  #003EFB;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 10rem;
+    height: 3rem;
+  }
+  .term-footer h3{
+    margin-top: 1.3rem;
+    margin-left: 0.3rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .terms-container1{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /* background:  rgba(0.850, 0.850, 0.850, 0.09); */
+  }
+  .term-footer button{
+    margin-left: 10.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background:  #003EFB;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 10rem;
+    height: 3rem;
+  }
+  .term-footer h3{
+    margin-top: 1.3rem;
+    margin-left: 0.3rem;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,318 @@
+.login-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-form-header{
+    display: flex;
+    flex-direction: row;
+}
+.login-form-header img{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1.3rem;
+    margin-right: 0.8rem;
+}
+.google-facebook-button{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+.google-div{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 8.5rem;
+    padding-left: 2rem;
+    margin-right: 2rem;
+    box-shadow: 0 0 10px 0 rgba(31, 11, 11, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.google-div:hover{
+    box-shadow: 0 0 20px 0 rgba(31, 11, 11, 0.2);
+}
+.google-div img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.7rem;
+    margin-right: 0.3rem;
+}
+
+.facebook-div{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 9rem;
+    padding-left: 2rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.facebook-div:hover{
+    box-shadow: 0 0 20px 0 rgba(31, 11, 11, 0.2);
+}
+.facebook-div img{
+    
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: 0.9rem;
+
+    margin-right: 0.7rem;
+}
+.remember-me{
+    display: flex;
+    flex-direction: row;
+}
+.check{
+    margin-top: -0.7rem;
+}
+.remember{
+    display: flex;
+    flex-direction: row;
+}
+.remember h5{
+    margin-top: 0;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #8D929E;
+}
+.remember-me p{
+    margin-left: 14.5rem;
+}
+.login-form_input{
+    display: flex;
+    flex-direction: column;
+}
+.login-form_input input{
+    padding-left: 15.2099px;
+    gap: 15.21px;
+    height: 40.44px;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    background: #CFD4DE3D;
+    color: black;
+}
+.login-form_input p{
+    font-size: 0.7rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #003DF6E3;
+    cursor: pointer;
+}
+.login-form_input p:hover{
+    text-decoration: underline;
+}
+.login-btn{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    margin-bottom: 2rem;
+    border-radius: 0.7rem;
+    border: 2px solid #003DF6;
+    background: #003DF6;
+    color: white;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+.login-btn:hover{
+    color: #003DF6;
+    background: white;
+}
+.signup{
+    color: #003DF6E3;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.signup:hover{
+    color: #FFC107;
+    text-decoration: underline;
+}
+.already1{
+    color: #8D929E;
+    font-size: 0.8rem;
+    
+    margin-left: 5rem;
+}
+.login-image img{
+    height: 90vh;
+    margin-left: 3rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .login-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 3rem; */
+        background-image: url(../../assets/login_frame.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8); /* Set the background color with opacity */
+        background-blend-mode: multiply;
+        margin-top: 0;
+    }
+    .login-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        color: white;
+    }
+    .login-form-header{
+        display: flex;
+        flex-direction: row;
+        color: white
+    }
+    .login-form-header img{
+        width: 3rem;
+        height: 3rem;
+        margin-top: 1.3rem;
+        margin-right: 0.8rem;
+    }
+    .google-facebook-button{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+    .google-div{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid rgb(255, 255, 255);
+        width: 8.5rem;
+        padding-left: 2rem;
+        margin-right: 2rem;
+        box-shadow: 0 0 10px 0 rgba(83, 80, 80, 0.2);
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+    }
+    .google-div:hover{
+        box-shadow: 0 0 20px 0 rgba(221, 215, 215, 0.2);
+    }
+    .google-div img{
+        width: 2rem;
+        height: 2rem;
+        margin-top: 0.7rem;
+        margin-right: 0.3rem;
+    }
+    
+    .facebook-div{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid rgb(255, 255, 255);
+        width: 9rem;
+        padding-left: 2rem;
+        box-shadow: 0 0 10px 0 rgba(167, 136, 136, 0.2);
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+    }
+    .facebook-div:hover{
+        box-shadow: 0 0 20px 0 rgba(223, 211, 211, 0.2);
+    }
+    .facebook-div img{
+        
+        width: 1.6rem;
+        height: 1.6rem;
+        margin-top: 0.9rem;
+    
+        margin-right: 0.7rem;
+    }
+    .remember-me{
+        display: flex;
+        flex-direction: row;
+    }
+    .check{
+        margin-top: -0.7rem;
+    }
+    .remember{
+        display: flex;
+        flex-direction: row;
+    }
+    .remember h5{
+        margin-top: 0;
+        font-family: 'Poppins';
+        font-weight: 400;
+        color: #8D929E;
+    }
+    .remember-me p{
+        margin-left: 30.5rem;
+    }
+    .login-form_input{
+        display: flex;
+        flex-direction: column;
+    }
+    .login-form_input input{
+        padding-left: 15.2099px;
+        gap: 15.21px;
+        height: 40.44px;
+        margin-bottom: 1rem;
+        border-radius: 0.3rem;
+        border: none;
+        background: #CFD4DE3D;
+        color: rgb(255, 255, 255);
+    }
+    .login-form_input p{
+        font-size: 0.7rem;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        color: #003DF6E3;
+        cursor: pointer;
+    }
+    .login-form_input p:hover{
+        text-decoration: underline;
+    }
+    .login-btn{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        margin-bottom: 2rem;
+        border-radius: 0.7rem;
+        border: 2px solid #003DF6;
+        background: #003DF6;
+        color: white;
+        font-family: 'Poppins';
+        cursor: pointer;
+    }
+    .login-btn:hover{
+        color: #003DF6;
+        background: white;
+    }
+    .signup{
+        color: #003DF6E3;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+    .signup:hover{
+        color: #FFC107;
+        text-decoration: underline;
+    }
+    .already1{
+        color: #8D929E;
+        font-size: 0.8rem;
+        
+        margin-left: 15rem;
+    }
+    .login-image img{
+        /* height: 90vh;
+        margin-left: 3rem; */
+        display: none;
+    }
+}

@@ -1,0 +1,56 @@
+.marketer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;;
+}
+.marketer-header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.marketer-header h1{
+  color: #0e314c;
+  font-size: 3.5rem;
+  
+}
+.png1{
+  width: 200px;
+  margin-right: 11rem;
+  margin-top: 3rem;
+  opacity: 0.5;
+  animation: floating 2s ease-in-out infinite;
+}
+.construction{
+  display: flex;
+  align-self: center;
+  width: 600px;
+  margin-left: 25rem;
+  margin-top: -5rem;
+  animation: floating 2s ease-in-out infinite;
+}
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.marketer-footer{
+  display: flex;
+  flex-direction: row;
+}
+.png2{
+  width: 200px;
+  /* margin-right: 11rem; */
+  margin-left: 13rem;
+  margin-top: 3rem;
+  opacity: 0.5;
+  margin-top: 20rem;
+  animation: floating 2s ease-in-out infinite;
+}
